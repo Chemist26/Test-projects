@@ -17,6 +17,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
     
     private int totalBricks = 21;
     
+    
     private Timer timer;
     private int delay = 8;
     
@@ -90,7 +91,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
 			}
 			
 			A: for(int i = 0; i < map.map.length; i++) {
-				for (int j = 0; j < map.map.length; j++) {
+				for (int j = 0; j < map.map[0].length; j++) {
 					if(map.map[i][j] > 0) {
 						int brickX = j * map.brickWidth + 80;
 						int brickY = i * map.brickHeight + 50;
@@ -114,7 +115,9 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
 							
 							break A;
 						} 
+						
 					}
+					
 				}
 			}
 			
