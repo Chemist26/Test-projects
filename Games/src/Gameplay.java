@@ -86,7 +86,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
 		// TODO Auto-generated method stub
 		timer.start();
 		if(play) {
-			if(new Rectangle(ballpostX, ballpostY, 20, 20).intersects(new Rectangle(playerX, 550, 100, 8))) {
+			if(new Rectangle(ballpostX, ballpostY, 200, 200).intersects(new Rectangle(playerX, 550, 100, 8))) {
 				ballYdir = -ballYdir;
 			}
 			
