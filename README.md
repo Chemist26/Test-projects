@@ -24,7 +24,7 @@ A brick-breaking game designed to test your reflexes and entertain.
 
 ## Simple Banking Application
 
-The first project in the repository, a basic banking application illustrating fundamental programming principles.
+The first project in the repository, is a basic banking application illustrating fundamental programming principles.
 
 Feel free to explore each project's folder for more details and source code.
 
